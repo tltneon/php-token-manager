@@ -1,6 +1,6 @@
 {
     "name": "gbrousse/php-token-manager",
-    "description": "PHP librairy used to secure web ressources (files, images, streams, ...) with simple token system.",
+    "description": "PHP library used to secure web ressources (files, images, streams, ...) with simple token system.",
     "homepage": "https://github.com/gbrousse/php-token-manager",
     "type": "library",
     "license": "LGPL-3.0",
