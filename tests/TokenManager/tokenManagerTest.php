@@ -8,9 +8,10 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
      */
     public function testTokenManagerConstructor()
     {
+        $path = realpath(__DIR__.'./token/');
         $options = array(
             'dir' => array(
-                'true'=>'./tests/tokenManager/token/',
+                'true'=>$path,
                 'false'=>'./123456/'
             ),
             'prefix' => array(
