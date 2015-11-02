@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1446463105">
+  <project timestamp="1446463105">
+    <package name="TokenManager">
+      <file name="C:\www\php-token-manager/src/TokenManager/TokenManager.php">
+        <class name="TokenManager" namespace="TokenManager">
+          <metrics methods="10" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="55" elements="82" coveredelements="58"/>
+        </class>
+        <line num="69" type="method" name="__construct" crap="14.27" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="104" type="stmt" count="1"/>
+        <line num="110" type="method" name="create" crap="3" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="118" type="stmt" count="1"/>
+        <line num="119" type="stmt" count="1"/>
+        <line num="122" type="stmt" count="1"/>
+        <line num="129" type="method" name="getExistingValid" crap="5.02" count="1"/>
+        <line num="131" type="stmt" count="1"/>
+        <line num="134" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="137" type="stmt" count="1"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="140" type="stmt" count="1"/>
+        <line num="141" type="stmt" count="1"/>
+        <line num="143" type="stmt" count="0"/>
+        <line num="144" type="stmt" count="1"/>
+        <line num="145" type="stmt" count="1"/>
+        <line num="152" type="method" name="get" crap="2" count="1"/>
+        <line num="154" type="stmt" count="1"/>
+        <line num="155" type="stmt" count="1"/>
+        <line num="158" type="stmt" count="1"/>
+        <line num="165" type="method" name="isValid" crap="12" count="0"/>
+        <line num="166" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="0"/>
+        <line num="172" type="stmt" count="0"/>
+        <line num="173" type="stmt" count="0"/>
+        <line num="175" type="stmt" count="0"/>
+        <line num="176" type="stmt" count="0"/>
+        <line num="179" type="stmt" count="0"/>
+        <line num="186" type="method" name="clean" crap="4" count="1"/>
+        <line num="187" type="stmt" count="1"/>
+        <line num="188" type="stmt" count="1"/>
+        <line num="190" type="stmt" count="1"/>
+        <line num="191" type="stmt" count="1"/>
+        <line num="192" type="stmt" count="1"/>
+        <line num="193" type="stmt" count="1"/>
+        <line num="195" type="stmt" count="1"/>
+        <line num="196" type="stmt" count="1"/>
+        <line num="197" type="stmt" count="1"/>
+        <line num="198" type="stmt" count="1"/>
+        <line num="199" type="stmt" count="1"/>
+        <line num="200" type="stmt" count="1"/>
+        <line num="201" type="stmt" count="1"/>
+        <line num="208" type="method" name="isTokenFile" crap="6" count="0"/>
+        <line num="209" type="stmt" count="0"/>
+        <line num="210" type="stmt" count="0"/>
+        <line num="217" type="method" name="getTokenFromFile" crap="2" count="0"/>
+        <line num="218" type="stmt" count="0"/>
+        <line num="225" type="method" name="altOnError" crap="2" count="0"/>
+        <line num="226" type="stmt" count="0"/>
+        <line num="227" type="stmt" count="0"/>
+        <line num="234" type="method" name="getLastError" crap="6" count="0"/>
+        <line num="235" type="stmt" count="0"/>
+        <metrics loc="239" ncloc="133" classes="1" methods="10" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="55" elements="82" coveredelements="58"/>
+      </file>
+    </package>
+    <file name="C:\www\php-token-manager/vendor/symfony/polyfill-mbstring/bootstrap.php">
+      <metrics loc="51" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="290" ncloc="176" classes="1" methods="10" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="55" elements="82" coveredelements="58"/>
+  </project>
+</coverage>
