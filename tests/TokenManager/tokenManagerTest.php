@@ -7,11 +7,13 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
     
     public function __construct($name = null, array $data = array(), $dataName = '') {
         parent::__construct($name, $data, $dataName);
-        if(!is_dir($this->tokenDirPath)){
-            $this->tokenDirPath = realpath(__DIR__.'./token/').'/';
-        }
-        echo $this->tokenDirPath;
-        chmod($this->tokenDirPath, 0777);
+
+        mkdir($this->tokenDirPath);
+    }
+    
+    public function __destruct() {
+        $this->cleanTokenDir($this->tokenDirPath);
+        rmdir($this->tokenDirPath);
     }
     
     /**
