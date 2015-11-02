@@ -18,7 +18,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
     }
     
     /**
-     * @covers TokenManager/TokenManager::__construct
+     * 
      */
     public function testTokenManagerConstructor()
     {
