@@ -11,6 +11,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
             $this->tokenDirPath = realpath(__DIR__.'./token/').'/';
         }
         echo $this->tokenDirPath;
+        chmod($this->tokenDirPath, 0777);
     }
     
     /**
