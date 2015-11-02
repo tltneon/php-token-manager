@@ -8,12 +8,8 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
      */
     public function testTokenManagerConstructor()
     {
-        $path = realpath(__DIR__.'./token/');
+        
         $options = array(
-            'dir' => array(
-                'true'=>$path,
-                'false'=>'./123456/'
-            ),
             'prefix' => array(
                 'true'=>'string',
                 'false'=>'#string!'
@@ -35,6 +31,15 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
                 'false'=>'test'
             )   
         );
+        
+        echo $path = realpath(__DIR__.'./token/');
+        if(is_dir($path)){
+            $options['dir'] = array(
+                'true'=>$path,
+                'false'=>'./123456/'
+            );
+        }
+        
         foreach ($options as $option => $value) {
             
             $rightTokenManager = new TokenManager(array($option=>$value['true']));
