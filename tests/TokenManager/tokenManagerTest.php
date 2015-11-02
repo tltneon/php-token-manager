@@ -8,7 +8,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
     public function __construct($name = null, array $data = array(), $dataName = '') {
         parent::__construct($name, $data, $dataName);
         if(!is_dir($this->tokenDirPath)){
-            $this->tokenDirPath = realpath(__DIR__.'./token/');
+            $this->tokenDirPath = realpath(__DIR__.'./token/').'/';
         }
         echo $this->tokenDirPath;
     }
@@ -66,7 +66,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
      */
     public function testTokenManagerGet(){
         $options = array(
-            'dir' => './tests/tokenManager/token/',
+            'dir' => $this->tokenDirPath,
             'prefix' => '1234'
         );
         $this->cleanTokenDir($options['dir']);
@@ -85,7 +85,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
      */
     public function testTokenManagerClean(){
         $options = array(
-            'dir' => './tests/tokenManager/token/',
+            'dir' =>  $this->tokenDirPath,
             'prefix' => '1234',
             'minTimeout'=>1,
             'maxTimeout'=>1
@@ -101,7 +101,7 @@ class tokenManagerTest extends PHPUnit_Framework_TestCase{
     }
     
     private function cleanTokenDir($path){
-        $files = glob($path.'/*'); // get all file names
+        $files = glob($path.'*'); // get all file names
         foreach($files as $file){ // iterate files
           if(is_file($file))
             unlink($file); // delete file
