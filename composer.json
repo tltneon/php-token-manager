@@ -16,6 +16,7 @@
         "php": ">=5.3"
     },
     "require-dev": {
+        "php": ">=5.3",
         "phpunit/phpunit": "4.0.*",
         "satooshi/php-coveralls": "dev-master"
     },
