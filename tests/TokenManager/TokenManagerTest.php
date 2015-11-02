@@ -1,5 +1,6 @@
 <?php
 
+
 use TokenManager\TokenManager;
 
 class TokenManagerTest extends PHPUnit_Framework_TestCase{
