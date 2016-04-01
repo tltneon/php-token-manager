@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require '../src/TokenManager/TokenManager.php';
 
 use TokenManager\TokenManager; 
 
